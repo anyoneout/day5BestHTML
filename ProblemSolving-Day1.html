@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Problem Solving-Day 1</title>
+<link rel="stylesheet" href="./Problem Solving-Day 1_files/style.css">
+<style>
+  body 
+  {
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+  }
+</style>
+</head>
+
+
+<body>
+<h1>Bill Division Problem</h1>
+
+  <h2>Problem</h2>
+  <p>
+    Link to <a href="https://www.hackerrank.com/challenges/bon-appetit/problem">problem on HackerRank.</a>
+  </p>
+  <p>
+    Two friends Anna and Brian, are deciding how to split the bill at a dinner. Each will only pay for the items they consume. Brian gets the bill and calculates Anna's portion.  Did Brian overcharge her when he split the bill? If so, by how much?
+  </p>
+  <h2>Solution</h2>
+  <p>(Plain English explaination goes here.) Two bills are added up and compared. The first is of all the items. The second is of all the items minus the item Anna did not eat. Both bill are divided in half and the difference is the amount that is owed to Anna.</p>
+  <p>Result: </p>
+    (Result in plain English goes here) The amount Anna was charged was too high and the difference to be repaid is the result.
+  <h2>
+    Picture/Diagram
+  </h2>
+  <p> This is the Canva image of the drawings and pseudocode.</p>
+  <div class="diagram-container">
+    <img width="70%" alt="diagram of bill Divison" src="./(BEST)Day3_bonAppetitProblem.png" style="border: solid 3px";>
+  </div>
+  <h2>Pseudocode</h2>
+  <pre>      
+    correctSplit = sum of array - the item Anna did not eat
+
+    If the money Anna was charged minus the correctSplit is equal to zero
+    THEN print "Bon Appetit"
+    ELSE print out the amount owed to Anna
+
+
+    </pre>
+
+  <h2>
+    Discussion (Optional)
+  </h2>
+  <p>
+    See the "Explanations/Collaborations:" section of the Canva
+  </p>
+
+  <h2>Examples</h2>
+    <table style="border: solid">
+      <tbody>
+        <tr>
+          <th style="border-bottom: solid">Possible Bill scenarios</th>
+          <th style="border-bottom: solid">Result</th>
+        </tr>
+        <tr>
+          <td>equal</td>
+          <td>print "Bon Appetit"</td>
+        </tr>
+        <tr>
+          <td>unequal</td>
+          <td>return difference owed</td>
+      </tbody>
+    </table>
+
+
+</body>
+</html>
